@@ -5,17 +5,24 @@ So, what is the first step on learning and understanding rudimentry NLP? Learnin
 
 But before learning about what those are, let's understand what supervised machine learning is. In supervised machine learning you have an input X, which goes through the prediction function. You then compare your predicition with the true value of (^Y). It then gives you the cost function which you use to update the parameters theta(θ). 
 
-Image below will put the thing in context:
+Image below will put supervised learning in context:
 
 <div align="left">
     <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/supervised.JPG" width="600px"</img> 
 </div>
 
-
-
-
+If you want to read more about Supervised learning, please refer to this video : https://www.youtube.com/watch?v=cfj6yaYE86U
 
 ## Vocabulary and Feature extractions
+
+Let's use one tweet as an example:
+
+```
+I am happy because I am learning NLP
+
+```
+
+
 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
