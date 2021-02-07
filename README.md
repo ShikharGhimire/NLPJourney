@@ -181,6 +181,23 @@ The loss function of a single training example is :
 
 - However, when the model prediction is close to 1 (h(z(θ)==0.9999) and the label is 0, the second term of the log loss becomes a large negative number which is when multiplied by the overall factor of -1 to convert it to a positive loss value. -1x(1-0) x log(1-0.9999) is around 9.2. The closer the model prediction gets to 1, the larger the loss.
 
+### Update the weights
+
+To update your weight vector θ, you will apply gradient descent to iteratively improve your model's prediction. The gradient of the cost function J with respect to one of the weights θj is:
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/gradient%20of%20cost.JPG" width="600px"</img> 
+</div>
+
+- 'i' is the index across all the 'm' training examples.
+- 'j' is the index of the weights θj,s o xj is the feature associated with the weight θj
+- To update the weight θj, we adjust it by subtracting a fraction of the gradient determined by 𝛼
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/learningrate.JPG" width="400px"</img> 
+</div>
+
+- The learning rate 𝛼 is a value that we choose to control, how big a single update will be.
 
 
 
