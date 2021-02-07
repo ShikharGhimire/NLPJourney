@@ -1,6 +1,7 @@
 ## Journey into NLP
+For the past couple of months, I have been reading and researching about NLP papers and different technique used to help computer understand, interpret and manipualte human languages. As a human, language is very easy to us. It comes off very naturally but to make computer understand the language is difficult as the language carries meaning with the words arround it and itself too. 
 
-You can use the [editor on GitHub](https://github.com/ShikharGhimire/NLPJourney/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+So, what is the first step on learning and understanding rudimentry NLP?
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
