@@ -123,8 +123,15 @@ Now that we have converted raw tweets or sentences into a numerical data using n
     <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/sigmoid.JPG" width="600px"</img> 
 </div>
 
+Note that as θTx(i) gets closer and close to minus infinity, the denominator of the sigmoid function gets larger and larger and as a result, the sigmoid gets closer to 0. On the other hand, as θTx(i) gets closer and closer to infinity, the denominator of thesigmoid function gets closer to 1 and as a result the sigmoid also gets closer to 1. 
 
+Given a tweet, you can transform it into vector and run it through the sigmoid function to get a prediction
 
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/sigmoidtweet.JPG" width="600px"</img> 
+</div>
+
+ 
 
 ### Markdown
 
