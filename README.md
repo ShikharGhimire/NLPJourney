@@ -84,6 +84,37 @@ Negative frequencies for new tweet:
 
 We end up getting the following feature vector [1,8,11]. 1 corresponds to the bias, 88 the positive feature, and 11 the negative feature. 
 
+### Preprocessing
+Now that we know how to use pos and neg features extraction method to represent a tweet, we will now look at text preprocessing. If you think about it, alot of words in a sentences provides no meaning. Example: and, is, there, at, has,for a and so on. In english, these are called stopwords. We will also not care about punctuations and you would also have to lowercase every one of the words in the tweet. We will also use stemming that stems every word to its stem. In short:
+
+When preprocessing you have to perform the following:
+- Eliminate handles and URLs
+- Tokenize the string into words. 
+- Remove stop words like "and, is, a, on, etc."
+- Stemming- or convert every word to its stem. Like dancer, dancing, danced, becomes 'danc'. You can use porter stemmer to take care of this. 
+- Convert all your words to lower case. 
+
+For example, this tweet from Andrew Ng before and after preprocessing:
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/preprocess.JPG" width="600px"</img> 
+</div>
+
+### Putting it alltogether
+
+We now understand how we create a matrix that corresponds to al the feature of training example. Given a set of multiple raw tweets, we would have to preprocess them one by one to get these set of list of words, one for each of our tweets, and then you do feature extraction to convert text into numerical representations.
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/preprocess%20representation.JPG" width="600px"</img> 
+</div>
+
+The training X becomes the dimension (m,3)
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/dimension.JPG" width="600px"</img> 
+</div>
+
+
 
 ### Markdown
 
