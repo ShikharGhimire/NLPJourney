@@ -1,4 +1,5 @@
-## Journey into NLP
+## Journey into NLP(Natural Language Processing with classification in Logistic Regression)
+
 For the past couple of months, I have been reading and researching about NLP papers and different technique used to help computer understand, interpret and manipualte human languages. As a human, language is very easy to us. It comes off very naturally but to make computer understand the language is difficult as the language carries meaning with the words arround it and itself too. 
 
 So, what is the first step on learning and understanding rudimentry NLP? Learning about what vocabulary and feature extractions are.
@@ -111,8 +112,17 @@ We now understand how we create a matrix that corresponds to al the feature of t
 The training X becomes the dimension (m,3)
 
 <div align="left">
-    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/dimension.JPG" width="600px"</img> 
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/dimension.JPG" width="400px"</img> 
 </div>
+
+### Logistic regression training
+
+Now that we have converted raw tweets or sentences into a numerical data using negative and positive sampling with feature extraction, we will use logistic regression. If you want to read more about logistic regression, we can go here : https://www.youtube.com/watch?v=yIYKR4sgzI8 (Make sure you know what linear regression is first). Assuming you know what logistic regression is, we know that logistic regression uses sigmoid function which outputs probability between 0 and 1. The sigmoid function with some weight parameter θ and some input x(^i) defined as follows:
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/sigmoid.JPG" width="600px"</img> 
+</div>
+
 
 
 
