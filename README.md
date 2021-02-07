@@ -73,7 +73,6 @@ After the frequency dictionary has been built we can then use it to extract usef
 To encode a positive and negative frequencies:
 
 Positive Frequencies for new tweet:
-
 <div align="left">
     <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/freq%20math.JPG" width="600px"</img> 
 </div>
