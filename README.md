@@ -26,10 +26,14 @@ I am happy because I am learning NLP and I absolutely love it
 
 - To get that, you'll have to go through all the words from all your tweets and save every new words that appears in the tweets. 
 
-- For the above 
+- For the above tweet, the vocabulary for it will be : 
+
+```
+Vocabulary = [I, am happy,because, learning, NLP, and, absolutely, love, it]
+
+```
 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
