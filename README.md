@@ -3,7 +3,14 @@ For the past couple of months, I have been reading and researching about NLP pap
 
 So, what is the first step on learning and understanding rudimentry NLP? Learning about what vocabulary and feature extractions are.
 
-But before learning about what those are, let's understand what supervised machine learning is. In supervised machine learning you have an input X, which goes through the prediction function. You then compare your predicition with the true value of (^Y). It then gives you the cost function which you use to update the parameters theta(θ). Image below will put the thing in context:
+But before learning about what those are, let's understand what supervised machine learning is. In supervised machine learning you have an input X, which goes through the prediction function. You then compare your predicition with the true value of (^Y). It then gives you the cost function which you use to update the parameters theta(θ). 
+
+Image below will put the thing in context:
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/supervised.JPG" width="600px"</img> 
+</div>
+
 
 
 
