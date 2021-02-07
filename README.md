@@ -58,11 +58,11 @@ This type of representation is called sparse representation because the represen
 ### Negative and Positive Frequencies
 
 To tackle the sparse representation and its shortcomings, negative and positive frequencies is used. Given a label data for both negative and positive tweet, let's take an example.
-```
+
 <div align="left">
     <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/pos%20and%20neg.JPG" width="600px"</img> 
 </div>
-```
+
 
 - You have to encode each tweet as a vector. Previously, this vector was of dimension VV(sparse representation). Now, it is represented with a vector of dimension 33. To do so, you have to create a dictionary to map the word, and the class it appeared in (positive or negative) to the number of times that word appeared in its corresponding class.
 
@@ -71,15 +71,18 @@ To tackle the sparse representation and its shortcomings, negative and positive 
 After the frequency dictionary has been built we can then use it to extract useful features for sentiment analysis from a single tweet.
 
 To encode a positive and negative frequencies:
-```
+
+Positive Frequencies for new tweet:
+
 <div align="left">
     <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/freq%20math.JPG" width="600px"</img> 
 </div>
 
+Negative frequencies for new tweet:
 <div align="left">
     <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/freq%20neg.JPG" width="600px"</img> 
 </div>
-```
+
 
 ### Markdown
 
