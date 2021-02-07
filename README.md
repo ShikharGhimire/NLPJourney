@@ -82,6 +82,8 @@ Negative frequencies for new tweet:
     <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/freq%20neg.JPG" width="600px"</img> 
 </div>
 
+We end up getting the following feature vector [1,8,11]. 1 corresponds to the bias, 88 the positive feature, and 11 the negative feature. 
+
 
 ### Markdown
 
