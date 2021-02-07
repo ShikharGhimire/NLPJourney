@@ -131,6 +131,32 @@ Given a tweet, you can transform it into vector and run it through the sigmoid f
     <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/sigmoidtweet.JPG" width="600px"</img> 
 </div>
 
+### Logistic regression training
+
+Previously, we used x(i)θ to get our sigmoid results. But, how do we get the θ value?
+
+- Initialise your parameter θ
+- Update your θ in the direction of the gradient of cost function
+- Iterate until the cost is minimised
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/logtrain.JPG" width="600px"</img> 
+</div>
+
+Logistic regression takes a regular expression and applies a sigmoid to the output of the linear regression. 
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/formulae.JPG" width="600px"</img> 
+</div>
+
+The theta values are the weights. 
+
+The logistic regression formulae is :
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/logic.JPG" width="600px"</img> 
+</div>
+
  
 
 ### Markdown
