@@ -18,11 +18,15 @@ If you want to read more about Supervised learning, please refer to this video :
 Let's use one tweet as an example:
 
 ```
-I am happy because I am learning NLP
+I am happy because I am learning NLP and I absolutely love it
 
 ```
 
+- You have to create the vocabulary which is a list of unique words from your list of tweets.
 
+- To get that, you'll have to go through all the words from all your tweets and save every new words that appears in the tweets. 
+
+- For the above 
 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
