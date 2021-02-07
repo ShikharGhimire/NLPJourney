@@ -33,6 +33,32 @@ Vocabulary = [I, am happy,because, learning, NLP, and, absolutely, love, it]
 
 ```
 
+- Notice how, 'I' and 'am' wasn't repeated more than once. Like previously mentioned, we are only storing new words that appears in all the tweets.
+
+Following the creation of the vocabulary, we take a new tweet and extract features using the vocabulary. For example, let's take this new tweet:
+```
+I am hungry and I am absolutely not loving it
+```
+
+- We then check if every words from the vocabulary above appears in the word. If it does, we assign a value 1 otherwise we assign a value 0
+
+```
+I->1
+am->1
+hungry->0
+and->1
+absolutely->1
+not->0
+loving->0
+it->1
+```
+
+This type of representation is called sparse representation because the representation would have number of features equal to the size of the entire vocabulary. Every word would be represented with a vector equal to the vocabulary size. (1 for the word and 0 for all the words that is in the vocabulary). Because of this, if we apply let's say a logistic regression model, it will have to learn n+1 parameters where n is equal to the size of the vocabulary. You can imagine that for large vocabulary size, this would be problematic as it will drain computational power and significant time when to comes to predicition. 
+
+### Negative and Positive Frequencies
+
+To tackle the 
+
 
 
 ### Markdown
