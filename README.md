@@ -1,7 +1,15 @@
 ## Journey into NLP
 For the past couple of months, I have been reading and researching about NLP papers and different technique used to help computer understand, interpret and manipualte human languages. As a human, language is very easy to us. It comes off very naturally but to make computer understand the language is difficult as the language carries meaning with the words arround it and itself too. 
 
-So, what is the first step on learning and understanding rudimentry NLP?
+So, what is the first step on learning and understanding rudimentry NLP? Learning about what vocabulary and feature extractions are.
+
+But before learning about what those are, let's understand what supervised machine learning is. In supervised machine learning you have an input X, which goes through the prediction function. You then compare your predicition with the true value of (^Y). It then gives you the cost function which you use to update the parameters theta(θ). Image below will put the thing in context:
+
+
+
+
+## Vocabulary and Feature extractions
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
