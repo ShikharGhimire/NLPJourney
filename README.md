@@ -199,7 +199,38 @@ To update your weight vector θ, you will apply gradient descent to iteratively 
 
 - The learning rate 𝛼 is a value that we choose to control, how big a single update will be.
 
+### Implementing gradient descent function
 
+- The number of iterations, is the number of times that'll use the entire training set.
 
+- For each iteration, you'll calculate the cost function using all training examples(ml training examples) and for all features
 
+- Instead of updating a single weight θi at a time, we can update all the weights in the coloumn vector (Also called vectorization). 
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/weights.JPG" width="400px"</img> 
+</div>
+
+- θ has dimensions (n+1,1) where n is the number of features, and there is one more one element for the bias terms
+
+- The logits 'z' are calcualted by multiplying the feature matrix 'x' with the weight vetor theta( z = xθ) 
+
+###### In short:
+- X has dimension(m,n+1)
+- θ has dimensions (n+1,1)
+- z has dimensions (m,1)
+- The prediction 'h' is calculated by applying the sigmoid to each element in 'z', h(z) = sigmoid(z) and has dimensions(m,1)
+- The cost function J is calculated by taking dot product of the vector 'y' and log(h) since both 'y' and 'h' are coloumn vector (m,1), transform the vector to the left so that the matrix multiplication of a row vector with coloumn vector performs that the dot product.
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/costvector.JPG" width="400px"</img> 
+</div>
+
+- The update of theta is also vectorized. Because the dimensions of X are (m,n+1) and both h and y are (m,1), we need to transpose the X and place it on the left in order to perform matrix multiplication, which then yields the (n+1,1), answers we need.
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/thetavectorized.JPG" width="400px"</img> 
+</div>
+
+With the updated weights and biases, we then predict the new tweets the model has never seen
  
