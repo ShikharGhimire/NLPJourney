@@ -9,7 +9,7 @@ But before learning about what those are, let's understand what supervised machi
 Image below will put supervised learning in context:
 
 <div align="left">
-    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/supervised.JPG" width="600px"</img> 
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/supervised.jpg" width="600px"</img> 
 </div>
 
 If you want to read more about Supervised learning, please refer to this video : https://www.youtube.com/watch?v=cfj6yaYE86U
