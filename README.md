@@ -165,5 +165,24 @@ The cost function used for logistic regression is the average of log loss across
     <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/cost.JPG" width="600px"</img> 
 </div>
 
+- where m is the number of training examples y(i) is the actual label of the ith training example. (h(z(θ(i)) is the model prediction for the ith training example. 
+
+The loss function of a single training example is :
+
+<div align="left">
+    <img src="https://github.com/ShikharGhimire/NLPJourney/blob/main/Images/loss.JPG" width="600px"</img> 
+</div>
+
+- All the h values are between 0 and 1, so the log will be negative. This is the reason for the factor of -1 applied to the sum of the two loss term
+
+- Note that when the model predicts 1, (h(z(θ)==1) and the label y is also 1, the loss of training example is also 0
+
+- Similarly, when the model predicts 0, (h(z(θ)==0) and the label y is also 0, the loss of that training example is also 0
+
+- However, when the model prediction is close to 1 (h(z(θ)==0.9999) and the label is 0, the second term of the log loss becomes a large negative number which is when multiplied by the overall factor of -1 to convert it to a positive loss value. -1x(1-0) x log(1-0.9999) is around 9.2. The closer the model prediction gets to 1, the larger the loss.
+
+
+
+
 
  
